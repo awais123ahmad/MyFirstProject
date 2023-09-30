@@ -1,0 +1,168 @@
+.location-table-container {
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+}
+.location-searchbox {
+    background-color: rgb(206, 206, 206);
+    width: 86%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 2px 2px 0px rgb(221, 221, 221);
+}
+
+.location-search-input {
+    padding: 2px 5px 2px 5px;
+    font-size: 15px;
+}
+
+.location-search-btn {
+    margin-left: auto;
+    font-size: 15px;
+    background-color: rgb(74, 74, 255);
+    color: white;
+    font-weight: 800;
+    padding: 1px 5px 1px 5px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+.location-search-btn:hover {
+    background-color: rgb(52, 157, 255);
+    border: 0;
+}
+
+.location-table-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.location-table-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.location-table-hyg {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.location-table-add-button {
+    background-color: #21272b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.location-table-add-button:hover {
+    background-color: black;
+}
+
+.location-table {
+    width: 86%;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.location-table-header {
+    font-weight: 700;
+    background-color: rgb(238, 238, 238);
+}
+
+.location-table-row {
+    font-weight: 500;
+    transition: box-shadow 0.3s ease;
+}
+
+.location-table-row:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.location-column-date,
+.location-column-venue,
+.location-column-time,
+.location-column-status,
+.location-column-actions {
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.location-column-date {
+    width: 21%;
+    border-right: none;
+}
+
+.location-column-venue {
+    width: 22%;
+    border-right: none;
+}
+
+.location-column-time {
+    width: 27%;
+    border-right: none;
+}
+
+.location-column-status {
+    width: 15%;
+    border-right: none;
+}
+
+.location-column-actions {
+    width: 26%;
+}
+
+.location-img-delete {
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.location-img-edit {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.location-img-view {
+    padding-left: 10px;
+    cursor: pointer;
+}
+.location-btn-active {
+    font-size: 15px;
+    background-color: rgb(62, 255, 72);
+    border: 0;
+    padding: 1px 10px 1px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.location-btn-active:hover{
+    font-size: 16.5px;
+    color: white;
+    background-color: rgb(6, 192, 31);
+}
+.loc-inac{
+    font-size: 15px;
+    background-color: rgb(231, 116, 78);
+    border: 0;
+    padding: 1px 10px 1px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.loc-inac:hover{
+    font-size: 16.5px;
+    color: white;
+    background-color: rgb(194, 27, 15);
+}

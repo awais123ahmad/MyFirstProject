@@ -1,0 +1,73 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b3b3b;
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.venue {
+    font-size: 1.8rem;
+    margin-left: 35rem;
+}
+
+.image {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: rgb(216, 216, 216);
+    border: 1px solid rgb(239, 227, 227);
+    color: black;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    border-radius: 10px;
+}
+
+.nav-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .venue {
+        font-size: 1.4rem;
+        margin-left: 0.5rem;
+        /* Reduce margin for smaller screens */
+    }
+
+    .image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav-button {
+        padding: 5px 10px;
+        margin: 0 3px;
+        font-size: 0.9rem;
+        /* Reduce font size for smaller screens */
+    }
+}

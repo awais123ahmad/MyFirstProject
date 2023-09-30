@@ -1,0 +1,36 @@
+.sidebar{
+    width: 17%;
+    position: sticky;
+    overflow: clip;
+    background-color: #3d3d3d;
+    margin: 0;
+    margin-top: 0px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+.data a{
+    display: flex;
+    flex: row;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+.data a:hover{
+    background-image: linear-gradient(to right, #323232, #535353);
+    color: rgb(255, 255, 255);
+}
+.data img{
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+.dashboard{
+    margin-top: 1rem;
+}

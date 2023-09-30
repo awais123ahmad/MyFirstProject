@@ -1,0 +1,107 @@
+
+.body {
+    background: rgb(50, 57, 68) center;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    padding: 20px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    background-color: #1a2234;
+    border: none;
+    width: 80%; /* Adjust the width for larger screens */
+    max-width: 400px; /* Limit the maximum width */
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #2c3648;
+    border: 2px solid transparent;
+}
+
+.input:focus {
+    background-color: #36445d;
+    outline: none;
+}
+
+#remember {
+    background-color: red;
+}
+
+.remember-me {
+    padding-left: 5%;
+}
+
+.logo {
+    text-align: center;
+    /* margin-left: auto; */
+    -ms-transform: translateY(-20%);
+    transform: translateY(30%);
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: transparent;
+    outline: none;
+}
+
+.forgot-password {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.fp {
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .form-box {
+        width: 90%; /* Adjust the width for medium-sized screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .form-box {
+        width: 95%; /* Adjust the width for smaller screens */
+    }
+}

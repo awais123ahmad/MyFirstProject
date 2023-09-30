@@ -1,0 +1,141 @@
+.history-table-container {
+    text-align: center;
+    padding: 20px;
+    width: 80% !important;
+}
+
+.history-searchbox {
+    background-color: rgb(206, 206, 206);
+    width: 86%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 2px 2px 0px rgb(221, 221, 221);
+}
+
+.history-search-input {
+    padding: 2px 5px 2px 5px;
+    font-size: 15px;
+}
+
+.history-search-btn {
+    margin-left: auto;
+    font-size: 15px;
+    background-color: rgb(74, 74, 255);
+    color: white;
+    font-weight: 800;
+    padding: 1px 5px 1px 5px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+.history-search-btn:hover {
+    background-color: rgb(52, 157, 255);
+    border: 0;
+}
+
+.history-table-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.history-table-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.history-table-hyg {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.history-table-add-button {
+    background-color: #21272b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.history-table-add-button:hover {
+    background-color: black;
+}
+
+.history-table {
+    width: 86%;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.history-table-header {
+    font-weight: 700;
+    background-color: rgb(238, 238, 238);
+}
+
+.history-table-row {
+    font-weight: 500;
+    transition: box-shadow 0.3s ease;
+}
+
+.history-table-row:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.history-column-date,
+.history-column-venue,
+.history-column-time,
+.history-column-status,
+.history-column-actions {
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.history-column-date {
+    width: 16%;
+    border-right: none;
+}
+
+.history-column-venue {
+    width: 17%;
+    border-right: none;
+}
+
+.history-column-time {
+    width: 20%;
+    border-right: none;
+}
+
+.history-column-status {
+    width: 15%;
+    border-right: none;
+}
+
+.history-column-actions {
+    width: 26%;
+}
+
+.history-img-delete {
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.history-img-edit {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.history-img-view {
+    padding-left: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,234 @@
+.types-table-container {
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+}
+
+.types-searchbox {
+    background-color: rgb(206, 206, 206);
+    width: 86%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 2px 2px 0px rgb(221, 221, 221);
+}
+
+.types-search-input {
+    padding: 2px 5px 2px 5px;
+    font-size: 15px;
+}
+
+.types-search-btn {
+    margin-left: auto;
+    font-size: 15px;
+    background-color: rgb(74, 74, 255);
+    color: white;
+    font-weight: 800;
+    padding: 1px 13px 1px 11px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+.types-search-btn:hover {
+    background-color: rgb(52, 157, 255);
+    border: 0;
+}
+
+.types-table-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.types-table-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.types-table-hyg {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.types-table-add-button {
+    background-color: #21272b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.types-table-add-button:hover {
+    background-color: black;
+}
+
+.types-table {
+    width: 86%;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.types-table-header {
+    font-weight: 700;
+    background-color: rgb(238, 238, 238);
+}
+
+.types-table-row {
+    font-weight: 500;
+    transition: box-shadow 0.3s ease;
+}
+
+.types-table-row:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.types-column-date,
+.types-column-venue,
+.types-column-time,
+.types-column-status,
+.types-column-actions {
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.types-column-date {
+    width: 21%;
+    border-right: none;
+}
+
+.types-column-venue {
+    width: 47%;
+    border-right: none;
+}
+
+.types-column-time {
+    width: 27%;
+    border-right: none;
+}
+
+.types-column-status {
+    width: 15%;
+    border-right: none;
+}
+
+.types-column-actions {
+    width: 26%;
+}
+
+.types-img-delete {
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.types-img-edit {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.types-img-view {
+    padding-left: 10px;
+    cursor: pointer;
+}
+.types-btn-active {
+    font-size: 15px;
+    background-color: rgb(62, 255, 72);
+    border: 0;
+    padding: 1px 10px 1px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.types-btn-active:hover{
+    font-size: 16.5px;
+    color: white;
+    background-color: rgb(6, 192, 31);
+}
+.typ-inac{
+    font-size: 15px;
+    background-color: rgb(231, 116, 78);
+    border: 0;
+    padding: 1px 10px 1px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.typ-inac:hover{
+    font-size: 16.5px;
+    color: white;
+    background-color: rgb(194, 27, 15);
+}
+.typesmodal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f3f3f3;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    width: 340px;
+    border-radius: 5px;
+    animation: slide-in 0.3s ease-in;
+}
+.typesyesbtn{
+    margin-right: 1rem;
+    padding: 4px 10px 4px 10px;
+    font: 600;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bh{
+    width: 30px;
+    height: 30px;
+}
+.typesnobtn{
+    margin-right: 1rem;
+    padding: 4px 10px 4px 10px;
+    font: 600;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@keyframes slide-in {
+    0% {
+        transform: translate(-50%, -100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+@media (max-width: 768px) {
+    .types-searchbox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .types-search-input {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .types-search-btn {
+        padding: 10px;
+    }
+}
+
+
+

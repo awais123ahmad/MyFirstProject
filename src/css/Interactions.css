@@ -1,0 +1,156 @@
+.event-table-container {
+    text-align: center;
+    padding: 20px;
+    width: 80% !important;
+}
+
+.searchbox {
+    background-color: rgb(206, 206, 206);
+    width: 86%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 2px 2px 0px rgb(221, 221, 221);
+}
+
+.search-input {
+    padding: 2px 5px 2px 5px;
+    font-size: 15px;
+}
+
+.search-btn {
+    margin-left: auto;
+    font-size: 15px;
+    background-color: rgb(74, 74, 255);
+    color: white;
+    font-weight: 800;
+    padding: 1px 5px 1px 5px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+.search-btn:hover {
+    background-color: rgb(52, 157, 255);
+    border: 0;
+}
+
+.event-table-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.event-table-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.event-table-hyg {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.event-table-add-button {
+    background-color: #21272b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.event-table-add-button:hover {
+    background-color: black;
+}
+
+.event-table {
+    width: 86%;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.event-table-header {
+    font-weight: 700;
+    background-color: rgb(238, 238, 238);
+}
+
+.event-table-row {
+    font-weight: 500;
+    transition: box-shadow 0.3s ease;
+}
+
+.event-table-row:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.column-date,
+.column-venue,
+.column-time,
+.column-status,
+.column-actions {
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.column-date {
+    width: 21%;
+    border-right: none;
+}
+
+.column-venue {
+    width: 22%;
+    border-right: none;
+}
+
+.column-time {
+    width: 27%;
+    border-right: none;
+}
+
+.column-status {
+    width: 15%;
+    border-right: none;
+}
+
+.column-actions {
+    width: 26%;
+}
+
+.img-delete {
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.img-edit {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.img-view {
+    padding-left: 10px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .types-searchbox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .types-search-input {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .types-search-btn {
+        padding: 10px;
+    }
+}

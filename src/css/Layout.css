@@ -1,0 +1,4 @@
+.adminpanel{
+    display: flex;
+    flex-direction: row;
+}
